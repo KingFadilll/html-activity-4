@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            color: #ffff;
+            padding: 0px;
+            margin: 0px;
+        }
+        .container{
+            position: relative;
+            width: 400px;
+            margin: auto;
+            margin-top: 20px;
+        }
+        .container img{
+            filter: brightness(40%);
+        }
+        .isi{
+            width: 400px;
+            margin: auto;
+            margin-left: 40px;
+            position: absolute;
+            bottom: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        .isi h2{
+            font-size:18px ;
+            font-weight: 500;
+            font-family: "IBM Plex Sans", sans-serif;
+            
+        }
+        .isi h1{
+            font-family: "IBM Plex Serif", serif;
+            font-weight: 300;
+            font-size: 40px;
+        }
+        .isi span{
+            font-family: "IBM Plex Sans", sans-serif;
+            font-size: 18px;
+            font-weight:300;
+        }
+        
+        .more {
+            justify-content: space-between;
+            font-family: "IBM Plex Sans", serif;
+            font-size: 14px;
+            display: flex;
+            
+        }
+        .info {
+            background-color: #ffffff;
+            height: px;
+            padding: 15px;
+            padding-top: -12px;
+            padding-bottom: 15px;
+            width: 110px;
+            text-align: center;
+            border-radius: 50px;
+            
+        }
+        .info:hover{
+            transition: 200ms;
+            background-color: #ffffff60;
+        }
+        .info a:hover{
+            color: #ffff;
+        }
+        .info a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-size: large;
+            font-weight: 600;
+            font-family: "IBM Plex Sans", sans-serif;
+        }                 
+        .span {
+            margin-top: -10px;
+            margin-bottom: 10px;
+        }
+        .uang .dolar{
+            font-size: 25px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="trip.webp" alt="">
+        <div class="isi">
+            <h2>7 Days trip</h1>
+            <h1>Explore Bromo</h2>
+            <span>We offer more than just trips. We craft journeys that immerse you in the culture, history of every destination.</span>
+            <div class="more">
+                <div class="harga">
+                    <div class="span">
+                        <span>From</span>
+                    </div>
+                    <div class="uang">
+                        <span class="dolar">$450</span>
+                        <span>/pack</span>
+                    </div>
+                </div>
+                <div class="info">
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
